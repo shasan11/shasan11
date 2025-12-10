@@ -106,19 +106,19 @@ Product & Strategy          █████████░░░ 80%
 > **Note:** Replace `shasan-dhakal` with your actual GitHub username if it’s different.
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=shasan-dhakal&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=shasan11&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shasan-dhakal&layout=compact&theme=radical&langs_count=8" alt="Top Languages" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shasan11&layout=compact&theme=radical&langs_count=8" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=shasan-dhakal&theme=radical" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com?user=shasan11&theme=radical" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shasan-dhakal&theme=rogue" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shasan11&theme=rogue" alt="Contribution Graph" />
 </p>
 
 ---
@@ -129,7 +129,7 @@ Product & Strategy          █████████░░░ 80%
 > Once configured, this SVG will animate your contribution grid as a snake.
 
 ```md
-![GitHub Contribution Snake](https://github.com/shasan-dhakal/shasan-dhakal/blob/output/github-contribution-grid-snake.svg)
+![GitHub Contribution Snake](https://github.com/shasan-dhakal/shasan11/blob/output/github-contribution-grid-snake.svg)
 ```
 
 ---
