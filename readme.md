@@ -4,171 +4,159 @@
 
 <p align="center">
   Founder @ <b>KuberBytes</b> • Product & Tech @ <b>Cortifox Systems</b> <br/>
-  ML Engineer / Researcher • Logistics & SaaS Nerd • Future (Non-Delusional) Billionaire-in-Training
+  ML Engineer / Researcher • Logistics & SaaS Nerd • Future Billionaire-in-Training
 </p>
 
 ---
 
-## 🚀 What I Actually Do (Most of the Time)
+## 🚀 About Me
 
-> I build AI-first SaaS for <b>logistics</b>, <b>accounting</b>, and <b>education</b> – and then obsess over making them not-crap, stable, and actually used.
-
-| Product / Engine    | One-liner Value Prop                                      | Status     |
-|---------------------|-----------------------------------------------------------|------------|
-| **LogiFreight CMS** | Operating system for freight forwarders & logistics      | 🚢 Shipping |
-| **LedgerBooks AI**  | Accounting + ERP with ML-powered insights                | 📊 In dev  |
-| **Clausegen**       | Contract / document workflow automation with AI          | ✍️ Building |
-| **EnrollDesk**      | Education CRM & admissions automation                    | 🎓 Running |
-| **FinQrypt**        | DeFi-style savings & remittance experiments              | 🧪 R&D      |
-| **Canopus (SMIS)**  | School management information system                     | 🏫 Live     |
+I build AI-first SaaS products for **logistics**, **accounting/ERP**, and **education** — and I care a lot about:
+- Models that are **reliable**, not just accurate
+- Systems that **respect real-world constraints** (physics, operations, finance)
+- Multi-tenant platforms that can go from **one client → many regions** without turning into spaghetti
 
 ---
 
-## 📈 Tiny Fake Dashboard of My Brain
+## 🧩 What I’m Building
 
-### Focus Radar (Self-Reported, Brutally Honest)
-
-```text
-Reliable ML / MLOps       ███████████░ 90%
-Logistics & Supply Chain  █████████░░░ 80%
-Multi-tenant SaaS Design  ██████████░░ 85%
-DevOps / Cloud Infra      ████████░░░░ 65%
-Hardcore Theoretical Math ██████░░░░░░ 50%  ← actively fixing
-Research Writing Polish   ███████░░░░░ 60%  ← getting sharper
-```
+| Product / Engine    | One-liner Value Prop                                      | Status       |
+|---------------------|-----------------------------------------------------------|--------------|
+| **LogiFreight CMS** | Operating system for freight forwarders & logistics      | 🚢 Shipping  |
+| **LedgerBooks AI**  | Accounting + ERP with ML-powered insights                | 📊 In dev    |
+| **Clausegen**       | Contract / document workflow automation with AI          | ✍️ Building  |
+| **EnrollDesk**      | Education CRM & admissions automation                    | 🎓 Running   |
+| **FinQrypt**        | DeFi-style savings & remittance experiments              | 🧪 R&D       |
+| **Canopus (SMIS)**  | School management information system                     | 🏫 Live      |
 
 ---
 
-## 🧠 What I Care About (Technically)
+## 🧠 Focus Areas (Real Obsessed Zones)
 
-- **Reliable ML** – models that don’t fall apart when the data distribution sneezes  
-- **Physics / constraints-aware ML** – respecting reality instead of just loss curves  
-- **Logistics & operations** – shipments, manifests, ledgers, cashflows  
-- **Multi-tenant SaaS** – one codebase, many tenants, clean isolation  
-- **End-to-end systems** – from Postgres schema → API → frontend → deployment → metrics  
+- **Reliable ML & MLOps** – robustness under distribution shift, not toy demos  
+- **Physics / constraints-aware ML** – especially for flows, grids, and logistics  
+- **Logistics & operations** – shipments, manifests, finance, cashflow, risk  
+- **Multi-tenant SaaS** – isolation, billing, auth, tenancy at scale  
+- **End-to-end engineering** – DB schema → API → UI → deployment → monitoring  
 
 ---
 
-## 📊 Skill Snapshot (Charts Because Why Not)
+## 🛠 Tech Stack
 
-### Time Allocation (Rough, But Not Lying)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,js,ts,react,next,django,laravel,php,postgresql,mysql,redis,git,docker,linux,html,css,bootstrap,tailwind,figma" />
+</p>
+
+### Backend
+
+- **Languages:** Python, PHP, JavaScript/TypeScript  
+- **Frameworks:** Django, Django REST Framework, Laravel  
+- **Patterns:** Multi-tenant SaaS (schema & DB isolation), REST APIs, auth, billing  
+- **Databases:** PostgreSQL, MySQL, Redis
+
+### Frontend
+
+- **Frameworks:** React, Next.js  
+- **UI:** Ant Design, Reactstrap, Bootstrap  
+- **State:** Redux, RTK Query, Context (only where sane)
+
+### ML / Data
+
+- **Core:** PyTorch, scikit-learn, NumPy, Pandas  
+- **Workflow:** Jupyter, experiment-driven dev, physics-aware & constraint-based models  
+
+### DevOps & Infra
+
+- Docker & Docker Compose  
+- VPS deployments (Nginx, Linux), Cloudflare  
+- GitHub Actions for basic CI/CD
+
+---
+
+## 📈 Time & Focus (Data + Charts)
+
+### ⏱ Realistic Time Split
 
 ```mermaid
 pie title Time Spent (Typical Month)
-  "Building Product (Code + Arch)" : 40
-  "ML / Research / Experiments"    : 25
-  "Client & Business Work"         : 15
-  "Reading / Courses / Math"       : 10
-  "Random Firefighting"            : 10
+  "Building Product (Code + Architecture)" : 40
+  "ML / Research / Experiments"            : 25
+  "Client & Business Work"                 : 15
+  "Learning (Math / Courses / Papers)"     : 10
+  "Random Firefighting"                    : 10
 ```
 
-### Tech Stack Heat Map
+### 🔥 Skill Intensity Bars
 
 ```text
-Backend (Django / DRF / Laravel)     ██████████░
-Frontend (React / Next / AntD)       ███████████
-Databases (PostgreSQL, Redis)        █████████░░
-ML (PyTorch, Python, Jupyter)        █████████░░
-DevOps (Docker, CI/CD, Cloud)        ████████░░░
-WordPress / Marketing Pages          ███████░░░░
+Reliable ML / MLOps         ███████████░ 90%
+Logistics & Supply Chain    █████████░░░ 80%
+Multi-tenant SaaS Design    ██████████░░ 85%
+DevOps / Cloud Infra        ████████░░░░ 65%
+Mathematical Foundations    ██████░░░░░░ 50%  ← actively upgrading
+Research Writing & Papers   ███████░░░░░ 60%  ← improving every month
+Product & Strategy          █████████░░░ 80%
 ```
 
 ---
 
-## 🛠️ Tech I Use Without Googling Every Two Minutes
+## 📊 GitHub by the Numbers  
+> Using dynamic cards so the data updates automatically.
 
-**Languages & Core**
-- Python, JavaScript/TypeScript, PHP
-- SQL (PostgreSQL), a bit of NoSQL when forced
+> **Note:** Replace `shasan-dhakal` with your actual GitHub username if it’s different.
 
-**Backend & APIs**
-- Django, Django REST Framework  
-- Laravel + Sanctum / Passport  
-- Multi-tenant SaaS patterns (schema & database level)
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=shasan-dhakal&show_icons=true&theme=radical&count_private=true" alt="GitHub Stats" />
+</p>
 
-**Frontend**
-- React, Next.js  
-- Ant Design, Reactstrap, Bootstrap  
-- State: Redux, RTK Query, Context where it actually makes sense
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=shasan-dhakal&layout=compact&theme=radical&langs_count=8" alt="Top Languages" />
+</p>
 
-**ML / Data**
-- PyTorch, scikit-learn  
-- Jupyter, NumPy, Pandas  
-- Playing with physics-informed ML & graph-based models
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=shasan-dhakal&theme=radical" alt="GitHub Streak" />
+</p>
 
-**Infra & DevOps**
-- Docker, Docker Compose  
-- Nginx, VPS hosting  
-- GitHub Actions (basic CI/CD), Cloudflare, random Linux hacks
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=shasan-dhakal&theme=rogue" alt="Contribution Graph" />
+</p>
 
 ---
 
-## 📚 Current (Honest) Learning & Upgrade Plan
+## 🐍 Animated Contributions (Snake)
 
-### 1️⃣ Math & Theory (Because “I’ll do it later” already expired)
+> This needs a small GitHub Actions workflow in your profile repo.  
+> Once configured, this SVG will animate your contribution grid as a snake.
 
-- Real analysis foundations  
-- Linear algebra beyond “just invert the matrix”  
-- Probability, stochastic processes  
-- Numerical methods for ML / scientific computing  
-
-### 2️⃣ Research Discipline
-
-- Turning notebooks into actual **papers**, not graveyards  
-- Better experiment tracking, baselines, and ablations  
-- Submitting to accessible but real journals / conferences
-
----
-
-## 📦 Some Things I’m (Probably) Putting on GitHub
-
-> Not everything is open-sourced (yet), but this is the vibe.
-
-- `logifreight-cms` – core logistics engine, micro-modules for shipment, manifest, invoices  
-- `ledgerbooks-core` – chart of accounts, vouchers, POS / sales, inventory  
-- `clausegen-workflows` – contract lifecycle, templates, approvals, AI helpers  
-- `ml-lab-fluid-sr` – physics-aware super-resolution experiments for flows / grids  
-- `kuber-utils` – shared utilities for multi-tenant SaaS, auth, billing, and tenants
-
----
-
-## 📉 Honesty Corner (Things I’m Actively Fixing)
-
-- I sometimes try to build “version 3” before shipping “version 1”.  
-- I underestimate how long **writing** (docs, papers, SOPs) actually takes.  
-- I have more ideas than completed repos. Working on flipping that ratio.
-
----
-
-## 📊 GitHub Stats (Replace Username & Uncomment)
-
-<!--
-![Shasan's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=radical)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=radical)
--->
-
----
-
-## 📅 Contributions Mood (ASCII Edition)
-
-```text
-Legend: ░ = thinking, ▓ = building, █ = shipping
-
-Week 1:  ░░▓▓▓█
-Week 2:  ▓▓███▓
-Week 3:  ░▓▓███
-Week 4:  ░░▓███
+```md
+![GitHub Contribution Snake](https://github.com/shasan-dhakal/shasan-dhakal/blob/output/github-contribution-grid-snake.svg)
 ```
 
-If this ever becomes all `░`, something is seriously wrong.
+---
+
+## 📦 What You’ll Likely See in My Repos
+
+- `logifreight-cms` – logistics core: shipments, manifests, invoices, integrations  
+- `ledgerbooks-core` – accounting/ERP: chart of accounts, vouchers, POS & inventory  
+- `clausegen-workflows` – contract lifecycle, templates, approvals, AI drafting  
+- `ml-lab-fluid-sr` – physics-aware super-resolution & grid-based experiments  
+- `kuber-utils` – shared modules for auth, tenancy, billing, and common SaaS glue
 
 ---
 
-## 🤝 Let’s Connect / Build
+## 📉 Brutal Honesty Corner
 
-- ✉️ Email: _add your email here_  
-- 🌐 Website / Portfolio: _add your link here_  
-- 💼 LinkedIn: _add your link here_  
+- I sometimes overbuild v1 as if it’s v3. I’m actively killing that habit.  
+- Writing (docs, papers, SOPs) takes me longer than I’d like, but I’m shipping anyway.  
+- I generate more ideas than repos. The goal for this year: **ship > think**.
 
-If you’re into **logistics, accounting, DeFi-ish experiments, physics-aware ML, or hardcore SaaS**, DM me.  
-If you’re just here to lurk my repos… also fine. Clone responsibly. 😄
+---
+
+## 🤝 Let’s Connect
+
+- ✉️ Email:shasandhakal1105@gmail.com  
+- 🌐 Website / Portfolio: www.shasandhakal.com.np
+- 💼 LinkedIn: https://www.linkedin.com/in/shasan-dhakal/ 
+
+If you’re into **logistics, accounting, DeFi/SaaS experiments, or physics-aware ML**, we should probably talk.  
+If you’re just browsing my repos, that’s fine too — clone responsibly. 😄
