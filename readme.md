@@ -1,218 +1,251 @@
-<!--
-GitHub Profile README — drop this into a repo named exactly: YOUR_USERNAME (public)
-Example: shasan11/shasan11
+<!-- =========================================================
+  GitHub Profile README
+  1) Create a PUBLIC repo named exactly: YOUR_USERNAME
+  2) Add this as README.md
+  3) Replace placeholders: YOUR_USERNAME, links, email, etc.
+========================================================== -->
 
-If you want this to feel *real*, replace placeholder repo links + add 2–3 screenshots/GIFs.
--->
+<!-- ✅ Hero / Typing header -->
+<h1 align="center">Hi, I’m Shasan Dhakal 👋</h1>
 
-<h1 align="center">👋 Hi, I'm Shasan Dhakal</h1>
 <p align="center">
   <b>Full-Stack Engineer • ML/Physics-Informed Modeling • Product-minded Builder</b><br/>
   I ship end-to-end systems: research prototypes → production APIs → polished UIs.
 </p>
 
 <p align="center">
-  <a href="https://github.com/YOUR_USERNAME?tab=followers">
-    <img alt="followers" src="https://img.shields.io/github/followers/YOUR_USERNAME?style=flat&label=Followers">
-  </a>
-  <a href="https://github.com/YOUR_USERNAME?tab=repositories">
-    <img alt="repos" src="https://img.shields.io/badge/Repos-Open%20Source-informational?style=flat">
-  </a>
-  <img alt="status" src="https://img.shields.io/badge/Status-Building%20%26%20Researching-success?style=flat">
-  <img alt="focus" src="https://img.shields.io/badge/Focus-Physics%20ML%20%7C%20LLMs%20%7C%20Systems-blue?style=flat">
+  <!-- Replace links -->
+  <a href="https://github.com/YOUR_USERNAME"><img src="https://img.shields.io/badge/GitHub-YOUR_USERNAME-111?style=flat&logo=github&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/LinkedIn-Shasan%20Dhakal-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:your.email@example.com"><img src="https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail&logoColor=white" /></a>
+  <a href="https://your-portfolio.com"><img src="https://img.shields.io/badge/Portfolio-Visit-111?style=flat&logo=vercel&logoColor=white" /></a>
 </p>
 
----
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=flat&label=Profile%20Views" />
+  <img src="https://img.shields.io/badge/Focus-Physics%20ML%20%7C%20LLMs%20%7C%20Systems-blue?style=flat" />
+  <img src="https://img.shields.io/badge/Shipping-Research%20%2B%20Production-success?style=flat" />
+</p>
 
-## 🧠 About me
-- I build **full-stack products** and **research-grade ML systems**, especially where **physics, constraints, and real-world reliability** matter.
+<hr/>
+
+<!-- =========================================================
+  Brutal truth:
+  - Tailwind "components" don't render on GitHub READMEs (no Tailwind CSS).
+  - What DOES render: HTML tables, badges, SVG cards, images, Mermaid diagrams.
+  - So we’ll use: badges + SVG stat cards + Mermaid + clean HTML layout.
+========================================================== -->
+
+## 🧠 About Me
+- I build **full-stack products** and **research-grade ML systems**, especially where **constraints, physics, and reliability** matter.
 - I like problems that mix: **math + software engineering + product thinking**.
-- Current interests: **physics-informed ML**, **GNNs for molecular properties**, **differentiable rendering**, **prompt/search optimization**, and **RL for risk-aware decision-making**.
+- I’m comfortable owning work end-to-end: **discovery → specs → implementation → testing → deployment → iteration**.
 
-**What you can expect from my repos:**
-- Clean code structure, reproducibility, and engineering pragmatism
-- Fast baselines + ablations + “what actually moved the needle”
-- Deployment-ready APIs and UI demos (when it makes sense)
-
----
-
-## 🔥 Featured Projects (Research + Engineering)
-
-> Replace `YOUR_USERNAME` and repo names with your real links (or keep the titles and rename later).
-
-### 1) Physically-Constrained GNNs for Quantum Properties
-**Goal:** predict molecular energies/forces while respecting **physical symmetries + conservation laws**.  
-**Why it matters:** better generalization, fewer “unphysical” predictions.
-
-- ✅ Encodes symmetry-aware features and constraint regularization
-- ✅ Improves energy + force prediction stability (vs unconstrained baselines)
-- 🔧 Stack: PyTorch, PyG/DGL, RDKit (optional), NumPy
-
-**Repo:** https://github.com/YOUR_USERNAME/phys-gnn-quantum-properties  
-**Paper notes / writeup:** https://github.com/YOUR_USERNAME/phys-gnn-quantum-properties#readme
+**Core themes you’ll see in my repos**
+- **Physics-aware learning** (symmetries, conservation, PDE consistency)
+- **Search/optimization for prompts** (fewer trials, stronger evals)
+- **Differentiable pipelines** (rendering / inverse problems)
+- **RL with constraints** (risk-aware decisions)
+- **Production engineering** (APIs, auth, CI/CD, cloud)
 
 ---
 
-### 2) Physics-Consistent Fluid Super-Resolution (Real-Time)
-**Goal:** upscale coarse fluid simulations into high-resolution fields while approximately preserving **Navier–Stokes physics**.
+## 🎯 What I’m Good At (High-Signal)
+### Technical
+- System design for **data-heavy** & **workflow-heavy** applications
+- Building **REST/GraphQL APIs**, authentication (JWT), RBAC, background jobs
+- Shipping **React/Next** UIs with clean state management
+- Cloud-native workflows: Docker, CI/CD, infra-as-code basics
 
-- ✅ Neural upscaling with physics-aware loss (divergence/consistency constraints)
-- ✅ Real-time inference for interactive workflows
-- 🔧 Stack: PyTorch, CUDA (optional), FFT/finite-difference operators
-
-**Repo:** https://github.com/YOUR_USERNAME/physics-fluid-superres  
-**Demo:** https://github.com/YOUR_USERNAME/physics-fluid-superres#demo
-
----
-
-### 3) Quantum-Inspired Prompt Optimization for LLMs
-**Goal:** improve task accuracy with fewer manual trials via a search strategy that combines prompts in an **interference-like** way.
-
-- ✅ Reduces prompt-engineering iterations
-- ✅ Works as a plug-in optimizer (prompt set → selection/mixing → evaluation)
-- 🔧 Stack: Python, LangChain (optional), evaluation harness
-
-**Repo:** https://github.com/YOUR_USERNAME/quantum-prompt-optimizer
+### Product / Project Management
+- Discovery: stakeholders, workflows, constraints, success criteria
+- PRDs, user stories, acceptance criteria, edge-case coverage
+- Roadmaps, prioritization (RICE/MoSCoW), scope boundaries, risk registers
+- Delivery execution: sprint planning, release readiness, UAT coordination
+- Metrics: adoption, retention, funnel design, north-star + drivers
 
 ---
 
-### 4) Differentiable Ray Tracer for Inverse Rendering
-**Goal:** backprop through light transport to recover **materials + lighting** from images.
-
-- ✅ Differentiable rendering pipeline (gradients through ray interactions)
-- ✅ Supports optimization loops for inverse tasks
-- 🔧 Stack: Python/C++ (optional), PyTorch autograd, BVH acceleration (optional)
-
-**Repo:** https://github.com/YOUR_USERNAME/differentiable-ray-tracer
-
----
-
-### 5) RL-Based Risk-Aware Portfolio Optimizer
-**Goal:** allocate assets under volatility constraints; compare against classical quant methods.
-
-- ✅ Risk-aware reward shaping + constraint handling
-- ✅ Benchmark vs mean-variance / heuristic baselines
-- 🔧 Stack: Python, Gymnasium, Stable-Baselines3 (optional), Pandas
-
-**Repo:** https://github.com/YOUR_USERNAME/risk-aware-rl-portfolio
-
----
-
-### 6) Optimal Transport Embeddings (Concept / WIP)
-**Goal:** learn representations using **optimal transport** objectives (for alignment, matching, distribution shift).
-
-- ✅ OT-based embedding experiments
-- 🔧 Stack: Python, POT (Python Optimal Transport) / custom solvers
-
-**Repo:** https://github.com/YOUR_USERNAME/optimal-transport-embeddings
-
----
-
-## 🧰 Tech Stack (What I actually build with)
+## 🧰 Tech Stack (with icons)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,redux,tailwind,nodejs,express,django,laravel,graphql,postgres,mysql,mongodb,firebase,docker,kubernetes,aws,gcp,githubactions,terraform&perline=11" />
+</p>
 
 ### Frontend
-- **HTML5, CSS3, JavaScript (ES6+)**
-- **React.js, Next.js, Redux**
-- **Tailwind CSS**
+- HTML5, CSS3, JavaScript (ES6+), TypeScript
+- React.js, Next.js, Redux
+- Tailwind CSS (in real apps — not inside GitHub rendering)
 
 ### Backend
-- **Node.js, Express.js**
-- **Django, REST APIs**
-- **Laravel**
-- **GraphQL**
+- Node.js, Express.js
+- Django + DRF (REST APIs)
+- Laravel
+- GraphQL
 
-### Databases
-- **PostgreSQL, MySQL**
-- **MongoDB**
-- **Firebase**
+### Data
+- PostgreSQL, MySQL, MongoDB
+- Firebase
 
-### DevOps & Cloud
-- **Docker, Kubernetes**
-- **AWS (EC2, S3, Lambda)**
-- **GCP**
-- **GitHub Actions, CI/CD**
-- **Terraform**
+### DevOps / Cloud
+- Docker, Kubernetes
+- AWS (EC2, S3, Lambda)
+- GCP
+- GitHub Actions, CI/CD
+- Terraform
 
-### Tools & Practices
-- **Git, GitHub/GitLab**
-- **Jira, Postman**
-- **WebSockets, JWT Authentication**
-- **Agile/Scrum**
-- **Unit Testing (Jest, Mocha)**
-- **WordPress**
-- **Product Management**
-- **LangChain**
+### Engineering Practices
+- WebSockets, JWT Authentication
+- Agile/Scrum, Jira, Postman
+- Unit testing (Jest, Mocha)
+- Product Management + documentation discipline
+- LangChain (LLM tooling)
 
 ---
 
-## 🧪 Engineering Principles I follow
-- **Reproducibility > hype**: clear configs, fixed seeds, minimal “magic”
-- **Baselines first**: strongest simple baseline before complex models
-- **Constraints matter**: encode structure when the domain demands it (physics, finance)
-- **Deployability**: every project should have a path to inference + API + demo (even if optional)
+## 🚀 Flagship Projects (Research + Engineering)
+
+> Replace repo links once you publish. Keep each project “demo-able” (README, results, how to run).
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧬 Physically-Constrained GNNs for Quantum Properties</h3>
+      <p><b>Graph neural network</b> encoding physical symmetries and conservation laws to improve molecular energy/force prediction.</p>
+      <ul>
+        <li>Symmetry-aware features + constraint regularization</li>
+        <li>Improved stability & generalization vs unconstrained baselines</li>
+        <li>Research-first but engineered for reproducible runs</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Domain-Quantum%20%7C%20Molecules-6f42c1?style=flat" />
+        <img src="https://img.shields.io/badge/Tech-PyTorch%20%7C%20GNN-2ea44f?style=flat" />
+      </p>
+      <a href="https://github.com/YOUR_USERNAME/phys-gnn-quantum-properties">Repo</a> •
+      <a href="https://github.com/YOUR_USERNAME/phys-gnn-quantum-properties#results">Results</a> •
+      <a href="https://github.com/YOUR_USERNAME/phys-gnn-quantum-properties#reproduce">Reproduce</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🌊 Physics-Consistent Fluid Super-Resolution (Real-Time)</h3>
+      <p>Neural upscaling model converting coarse simulations into high-res fields while approximately preserving Navier–Stokes physics.</p>
+      <ul>
+        <li>Physics-consistency losses (divergence / residual penalties)</li>
+        <li>Real-time inference target for interactive use</li>
+        <li>Visualization + validation metrics included</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Domain-Fluids%20%7C%20PDE-0b7285?style=flat" />
+        <img src="https://img.shields.io/badge/Tech-PyTorch%20%7C%20CUDA-2ea44f?style=flat" />
+      </p>
+      <a href="https://github.com/YOUR_USERNAME/physics-fluid-superres">Repo</a> •
+      <a href="https://github.com/YOUR_USERNAME/physics-fluid-superres#demo">Demo</a> •
+      <a href="https://github.com/YOUR_USERNAME/physics-fluid-superres#benchmarks">Benchmarks</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🧠 Quantum-Inspired Prompt Optimization for LLMs</h3>
+      <p>Search strategy combining prompts in an interference-like way to boost accuracy with fewer manual prompt trials.</p>
+      <ul>
+        <li>Evaluation harness (task suite + scoring)</li>
+        <li>Optimizer: prompt set → combination → selection</li>
+        <li>Pluggable with LangChain / raw API calls</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Domain-LLMs%20%7C%20Search-111?style=flat" />
+        <img src="https://img.shields.io/badge/Tech-Python%20%7C%20LangChain-2ea44f?style=flat" />
+      </p>
+      <a href="https://github.com/YOUR_USERNAME/quantum-prompt-optimizer">Repo</a> •
+      <a href="https://github.com/YOUR_USERNAME/quantum-prompt-optimizer#eval">Eval</a> •
+      <a href="https://github.com/YOUR_USERNAME/quantum-prompt-optimizer#usage">Usage</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎥 Differentiable Ray Tracer for Inverse Rendering</h3>
+      <p>Custom ray tracer allowing backprop through light transport to recover materials and lighting from images.</p>
+      <ul>
+        <li>Differentiable rendering pipeline</li>
+        <li>Optimization loops for inverse problems</li>
+        <li>Acceleration structures optional</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Domain-Graphics%20%7C%20Optimization-f59f00?style=flat" />
+        <img src="https://img.shields.io/badge/Tech-PyTorch%20%7C%20Autograd-2ea44f?style=flat" />
+      </p>
+      <a href="https://github.com/YOUR_USERNAME/differentiable-ray-tracer">Repo</a> •
+      <a href="https://github.com/YOUR_USERNAME/differentiable-ray-tracer#rendering">Rendering</a> •
+      <a href="https://github.com/YOUR_USERNAME/differentiable-ray-tracer#inverse">Inverse</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>📈 RL-Based Risk-Aware Portfolio Optimizer</h3>
+      <p>Reinforcement learning agent allocating assets under volatility constraints, benchmarked vs classical quant methods.</p>
+      <ul>
+        <li>Risk-aware reward shaping + constraints</li>
+        <li>Backtesting harness + baseline models</li>
+        <li>Clear reporting & ablations</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Domain-Finance%20%7C%20RL-364fc7?style=flat" />
+        <img src="https://img.shields.io/badge/Tech-Gym%20%7C%20Python-2ea44f?style=flat" />
+      </p>
+      <a href="https://github.com/YOUR_USERNAME/risk-aware-rl-portfolio">Repo</a> •
+      <a href="https://github.com/YOUR_USERNAME/risk-aware-rl-portfolio#backtest">Backtests</a> •
+      <a href="https://github.com/YOUR_USERNAME/risk-aware-rl-portfolio#baselines">Baselines</a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧭 Optimal Transport Embeddings</h3>
+      <p>Experiments on learning representations using optimal transport objectives for alignment & distribution shift.</p>
+      <ul>
+        <li>OT-based alignment experiments</li>
+        <li>Distance metrics + visualization</li>
+        <li>Research sandbox with reproducibility</li>
+      </ul>
+      <p>
+        <img src="https://img.shields.io/badge/Domain-OT%20%7C%20Embeddings-0b7285?style=flat" />
+        <img src="https://img.shields.io/badge/Tech-Python%20%7C%20POT-2ea44f?style=flat" />
+      </p>
+      <a href="https://github.com/YOUR_USERNAME/optimal-transport-embeddings">Repo</a> •
+      <a href="https://github.com/YOUR_USERNAME/optimal-transport-embeddings#experiments">Experiments</a>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 📌 What I’m working on (now-ish)
-- Building constraint-aware ML pipelines (GNNs, physics losses, differentiable ops)
-- Turning research prototypes into usable tools (APIs + minimal UI)
-- Better eval harnesses for prompt optimization / LLM tooling
+## 🧩 Product / Project Management Toolkit (How I Run Delivery)
+
+### Discovery (Week 0)
+- Identify stakeholders (users, buyers, ops, finance, support)
+- Map workflows end-to-end (happy path + handoffs)
+- Capture constraints (time, budget, tech debt, compliance)
+- Define success criteria (measurable, not vibes)
+
+### Specification (Week 1)
+- PRD / Problem framing + scope boundaries
+- User stories + acceptance criteria + edge cases
+- Non-functional requirements: performance, reliability, security, observability
+- Release plan + rollout strategy + support readiness
+
+### Delivery (Weeks 2+)
+- Sprint planning, sequencing, dependency mgmt
+- QA alignment, test plans, release checklists
+- Stakeholder updates (weekly), change control, risk register
+
+### Launch & Iterate
+- Instrumentation plan (events, dashboards)
+- A/B tests (when appropriate)
+- Post-launch review: learnings + next iteration
 
 ---
 
-## 🧩 Repo Templates I tend to use
-If you see these folders a lot, that’s intentional:
+## 🧱 Example Architecture Diagrams (Mermaid)
 
-- `configs/` — YAML/JSON experiment configs
-- `src/` — model + training code
-- `scripts/` — train/eval/export
-- `notebooks/` — analysis, visualization
-- `docs/` — writeups, diagrams
-- `api/` — REST or GraphQL inference endpoints
-- `web/` — demo UI (React/Next)
-
----
-
-## 📊 GitHub Stats (optional — keep or remove)
-<p align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&hide_border=true" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&hide_border=true" />
-</p>
-
-<p align="center">
-  <img height="160" src="https://streak-stats.demolab.com?user=YOUR_USERNAME&hide_border=true" />
-</p>
-
----
-
-## 🤝 Collaboration / Work
-I’m open to:
-- Physics-informed ML / GNN research collaborations
-- Full-stack product builds (Django/Node + React/Next)
-- ML infra + eval harness + deployment work
-
-**Best ways to reach me:**
-- LinkedIn: https://linkedin.com/in/YOUR_LINKEDIN
-- Email: your.email@example.com
-- Portfolio: https://your-portfolio.com
-
----
-
-## 🗂️ Quick Links (replace these)
-- 📌 My best repo: https://github.com/YOUR_USERNAME/YOUR_BEST_REPO
-- 🧾 Project writeups: https://github.com/YOUR_USERNAME?tab=repositories&q=notes&type=&language=
-- 🧪 Experiments: https://github.com/YOUR_USERNAME?tab=repositories&q=experiment&type=&language=
-
----
-
-<details>
-  <summary><b>📄 If you're a recruiter / hiring manager (click)</b></summary>
-
-- I build things that **ship**, not just notebooks.
-- Comfortable owning a feature end-to-end: **design → API → UI → testing → deployment**.
-- Strong at turning vague goals into clear deliverables: scope, milestones, acceptance criteria.
-
-If you have a role involving **ML systems + real software engineering**, I’m a fit.
-</details>
-
-<!-- End -->
+### Physics-Consistent Fluid Super-Resolution Pipeline
+```mermaid
+flowchart LR
+  A[Low-Res Simulation] --> B[Preprocess / Normalization]
+  B --> C[Neural Upscaler]
+  C --> D[High-Res Field]
+  D --> E[Physics Losses<br/>(divergence / residual)]
+  E --> C
+  D --> F[Metrics + Viz<br/>(PSNR/SSIM + physics error)]
